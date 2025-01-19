@@ -1,0 +1,58 @@
+body {
+    background-color: #222;
+    color: #0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+label {
+    font-size: 24px;
+    display: block;
+    margin: 20px 0;
+}
+
+.container {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    border: 2px solid #0f0;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #333;
+}
+.ICON {
+    border: 2px solid #0f0;
+    border-radius: 10px;
+    width: 105px;
+    height: 105px;
+}
+.name-photo {
+font-weight: bold;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.Perehod {
+font-weight: bold;
+width: 347px;
+height: 30px;
+border: 2px solid #0f0;
+border-radius: 10px;
+background-color: #333;
+color: #0f0;
+cursor: pointer;
+transition: transform 0.1s linear;
+}
+.Perehod:hover {
+background-color: #0f0;
+border-color: #015401;
+color: #222;
+transform: scale(1.2)
+}
